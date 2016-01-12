@@ -1,0 +1,5 @@
+animals = ['bear', 'tiger', 'penguin', 'zebra']
+bear = animals[1]
+tiger = animals[2]
+penguin = animals[3]
+zebra = animals[4]
