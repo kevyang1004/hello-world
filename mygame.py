@@ -9,15 +9,15 @@ def first_floor():
 
     choice = raw_input("> ")
 
-    if choice == "go to the office":
+    if choice == "office":
         print "No one is there"
         office()
 
-    elif choice == "go to the basement":
+    elif choice == "basement":
         print "All the SCS students and faculties are in chapel"
         basement()
 
-    elif choice == "go to the second floor":
+    elif choice == "second floor":
         print "There is the elementary school"
         second_floor()
 
@@ -27,7 +27,7 @@ def first_floor():
 
 def office():
     print "Suddenly, two dogs are trying to attack you"
-    print "What would you do with them?"
+    print "Are you going to fight or run away?"
 
     choice = raw_input("> ")
 
@@ -41,7 +41,7 @@ def office():
 
 def basement():
     print "Mr.Olinda comes and tells you to be in the chapel"
-    print "What is your choice?"
+    print "Are you going to seat or go out?"
 
     choice = raw_input("> ")
 
